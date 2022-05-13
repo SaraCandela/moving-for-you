@@ -9,3 +9,16 @@ body {
     font-family: Libre Baskerville, sans-serif;
     font-weight: 300;
 }
+
+/* headings and logo */
+
+h1, h2 {
+    font-family: Heebo, sans-serif;
+    text-transform: uppercase;
+    color: red
+}
+
+#logo {
+    float: left;
+    font-size: 280%;
+}
