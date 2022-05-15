@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300&family=Libre+Baskerville&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Signika+Negative:wght@300&display=swap');
 
 *{
     margin: 0;
@@ -6,22 +6,23 @@
     border: none;
 }
 body {
-    font-family: Libre Baskerville, sans-serif;
+    font-family: signika negative, sans-serif;
     font-weight: 300;
 }
 
 /* headings and logo */
 
 h1, h2 {
-    font-family: Heebo, sans-serif;
+    font-family: Bebas Neue, sans-serif;
     text-transform: uppercase;
-    color: red
+    color: rgba(241, 90, 34, 1);
+    background-color: rgba(246, 239, 233, 1);
 }
 
 #logo {
     float: left;
-    font-size: 200%;
-    margin-right: 55%;
+    font-size: 300%;
+    margin-right: 60%;
 }
 
 /* navegation links*/
@@ -44,17 +45,16 @@ h1, h2 {
 
 #menu a {
 text-decoration: none;
-color: inherit;
+color: rgba(241, 90, 34, 1);
 }
 
 #menu a:hover {
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid rgba(241, 90, 34, 1);
 }
 
 /* background image */
 
-#cave-image {
+#main-image {
     height: 600px;
     width: 100%;
-    background: url(../images/kayak-caved.jpg) no-repeat center center;
 }
