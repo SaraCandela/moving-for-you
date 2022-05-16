@@ -35,6 +35,7 @@ h1, h2 {
 
 #menu, #logo {
     line-height: 75px;
+    background-color: rgba(246, 239, 233, 1);
 }
 
 #menu li {
@@ -47,6 +48,7 @@ h1, h2 {
 #menu a {
 text-decoration: none;
 color: rgba(241, 90, 34, 1);
+background-color: rgba(246, 239, 233, 1);
 }
 
 #menu a:hover {
@@ -56,27 +58,51 @@ color: rgba(241, 90, 34, 1);
 /* background image */
 
 #main-image {
-    height: 600px;
+    height: 450px;
     width: 100%;
-    background: url(../imges/trying.jpg) no-repeat center center;
+    background: url('../images/trying.jpg') no-repeat center center;
 }
 
 /* About us */
 
 #about-us {
-    height: 600px;
+    height: 300px;
 }
 
 #left-about{
     padding-top: 30px;
-    width: 50%;
+    width: 33%;
+    margin-bottom: 50px;
     float: left;
-    background-color: blue;
+    background-color: rgba(246, 239, 233, 1);
 }
 
 #right-about {
    padding-top: 30px;
-   width: 50%;
+   margin-bottom: 500px;
+   width: 67%;
    float: right;
-   background-color: red; 
+   background-color:rgba(246, 239, 233, 1); 
+   background: url('../images/pexels-artem-podrez-5025641.jpg') no-repeat center center;
+   height: 100%;
+}
+
+.left-heading {
+    width: 60%;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+#history {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 230%;
+}
+
+/* font awesome style */
+
+.icon {
+    font-size: 32px;
 }
