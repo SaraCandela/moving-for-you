@@ -23,6 +23,7 @@ h1, h2 {
     float: left;
     font-size: 300%;
     margin-right: 60%;
+    margin-left: 30px;
 }
 
 /* navegation links*/
@@ -57,4 +58,25 @@ color: rgba(241, 90, 34, 1);
 #main-image {
     height: 600px;
     width: 100%;
+    background: url(../imges/trying.jpg) no-repeat center center;
+}
+
+/* About us */
+
+#about-us {
+    height: 600px;
+}
+
+#left-about{
+    padding-top: 30px;
+    width: 50%;
+    float: left;
+    background-color: blue;
+}
+
+#right-about {
+   padding-top: 30px;
+   width: 50%;
+   float: right;
+   background-color: red; 
 }
