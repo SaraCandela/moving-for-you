@@ -112,3 +112,13 @@ li {
     margin: 0 auto;
     text-align: center;
 }
+
+/* footer */
+
+footer {
+    height: 150px;
+}
+
+.social-networks {
+    text-align: center; 
+}
