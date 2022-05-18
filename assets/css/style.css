@@ -22,7 +22,7 @@ h1, h2 {
 #logo {
     float: left;
     font-size: 300%;
-    margin-right: 60%;
+    margin-right: 50%;
     margin-left: 30px;
 }
 
@@ -42,7 +42,7 @@ h1, h2 {
     display: inline-block;
     text-align: right;
     list-style-type: none;
-    margin-right: 30px;
+    margin-right: 25px;
 }
 
 #menu a {
@@ -60,7 +60,7 @@ background-color: rgba(246, 239, 233, 1);
 #main-image {
     height: 450px;
     width: 100%;
-    background: url('../images/trying.jpg') no-repeat center center;
+    background: url('../images/moving-boxes.jpg') no-repeat center center;
 }
 
 /* About us */
@@ -83,9 +83,17 @@ background-color: rgba(246, 239, 233, 1);
    width: 67%;
    float: right;
    background-color:rgba(246, 239, 233, 1); 
-   background: url('../images/pexels-artem-podrez-5025641.jpg') no-repeat center center;
-   height: 275px;
 }
+
+#right-about img {
+    padding-top: 30px;
+    width: 33%;
+    margin-bottom: 50px;
+    margin: 0 400px;
+    border-radius: 20%;
+    padding-top: 0;
+}
+
 
 .left-heading {
     width: 60%;
@@ -105,9 +113,10 @@ background-color: rgba(246, 239, 233, 1);
 
 .icon {
     font-size: 32px;
+    color:rgba(241, 90, 34, 1);
 }
 
-li {
+li{
     display: inline-block;
     margin: 0 auto;
     text-align: center;
@@ -117,6 +126,7 @@ li {
 
 footer {
     height: 150px;
+    background-color: rgba(246, 239, 233, 1);
 }
 
 .social-networks {
