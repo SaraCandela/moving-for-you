@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Signika+Negative:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 
 *{
     margin: 0;
@@ -8,15 +9,20 @@
 body {
     font-family: signika negative, sans-serif;
     font-weight: 300;
+    
 }
 
 /* headings and logo */
 
-h1, h2 {
+header {
+    background-color:  rgba(246, 239, 233, 1);
+}
+
+h1 {
     font-family: Bebas Neue, sans-serif;
     text-transform: uppercase;
     color: rgba(241, 90, 34, 1);
-    background-color: rgba(246, 239, 233, 1);
+   
 }
 
 #logo {
@@ -35,7 +41,6 @@ h1, h2 {
 
 #menu, #logo {
     line-height: 75px;
-    background-color: rgba(246, 239, 233, 1);
 }
 
 #menu li {
@@ -48,7 +53,6 @@ h1, h2 {
 #menu a {
 text-decoration: none;
 color: rgba(241, 90, 34, 1);
-background-color: rgba(246, 239, 233, 1);
 }
 
 #menu a:hover {
@@ -68,11 +72,11 @@ background-color: rgba(246, 239, 233, 1);
 }
 
 #cover {
-    color:rgba(246, 239, 233, 1);
     font-size: 130%;
     font-family: Bebas Neue, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
+    color:white;
 
     width: 300px;
     height: 200px;
@@ -90,17 +94,24 @@ background-color: rgba(246, 239, 233, 1);
 
 /* About us */
 
-#about-us {
-    height: 300px;
-}
 
 #left-about{
     padding-top: 30px;
     width: 33%;
     margin-bottom: 100px;
     float: left;
-    background-color: rgba(246, 239, 233, 1);
     font-size: 160%;
+}
+
+.experience {
+    color:rgba(241, 90, 34, 1)
+
+}
+
+hr {
+    border-top: 5px solid rgba(241, 90, 34, 1);
+    width:100%;
+    margin:5px;
 }
 
 #image {
@@ -108,7 +119,6 @@ background-color: rgba(246, 239, 233, 1);
    margin-bottom: 20px;
    width: 67%;
    float: right;
-   background-color:rgba(246, 239, 233, 1); 
 }
 
 #image img {
@@ -130,7 +140,7 @@ background-color: rgba(246, 239, 233, 1);
     margin-bottom: 50px;
 }
 
-#history {
+#about-us {
     text-align: center;
     margin-top: 10px;
     font-size: 230%;
@@ -163,6 +173,25 @@ background-color: rgba(246, 239, 233, 1);
     border: 2px solid rgba(241, 90, 34, 1)
 }
 
+/* form */
+
+
+#contact-us {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 230%;
+}
+
+.form {
+    max-width: 500px;
+    margin:2rem auto;
+    border:2px solid black;
+    padding:2rem;
+    font-family: montserrat, sans-serif;
+    background-image: url('../images/backgroundboxes.jpg');
+    background-repeat: no-repeat;
+}
+
 /* icons and footer */
 
 .icon {
@@ -188,7 +217,7 @@ li > p {
 
 footer {
     height: 150px;
-    background-color: rgba(246, 239, 233, 1);
+    background-color: rgba(246, 239, 233, 1);;
 }
 
 .social-networks {

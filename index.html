@@ -37,12 +37,14 @@
             <h3>Taking care of goods since 2000.</h3>
         </div>
     </section>
-    <section id="about-us">
-        <h1 id="history">About us</h1>
+    <section>
+        <h1 id="about-us">About us</h1>
        <div id="left-about">
             <div class="left-heading">
-                <h2>Our history</h2>
-                <br>
+                <h2 class="experience">Our Experience 
+                    <i class="fa-solid fa-business-time icon"></i>
+                </h2>
+                <hr>
             <p>Our company is created from a group of experts with years of experience.
                 Over the past decades, we have helped more than 80,000 customers with
                 transports and relocation projects. 
@@ -100,32 +102,48 @@
                     We assist in the delivery of parquet floors, packages, delivery of large items (such as white goods), equipment and more. </p>
                 </div> 
     </section>
-    <section id="form-section">
-        <h3>Let us know your request:</h3>
-        <br>
-        <form action="https://www.sendmydatahere.com" method="post" target="_blank" id="individuals">
-            <h3>Individuals</h3>
+    <br>
+        <h1 id="contact-us">Contact us</h1>
+    
+    <section id="contact">
+       <form class="form">
+           <h3 class="title">Private</h3>
+           <br>
+           <div>
             <label for="name">Name:</label>
-            <input id="name" type="text" name="name" placeholder="John" required>
-            <label for="lname">Last Name:</label>
-            <input id="name" type="text" name="lname" placeholder="Smith" required>
-            <label for="email">Email:</label>
-            <input id="email" type="email" name="email" placeholder="@" required>
-            <textarea name="textarea" id="textarea" rows="15" cols="20" required></textarea>
-            <input type="submit" value="send">
-        </form>
-        <br>
-        <form action="https://www.sendmydatahere.com" method="post" target="_blank" id="companies">
-            <h3>Companies</h3>
-            <label for="name">Name:</label>
-            <input id="name" type="text" name="name" placeholder="John" required>
-            <label for="lname">Last Name:</label>
-            <input id="name" type="text" name="lname" placeholder="Smith" required>
-            <label for="email">Email:</label>
-            <input id="email" type="email" name="email" placeholder="@" required>
-            <textarea name="textarea" id="textarea" rows="15" cols="20" required></textarea>
-            <input type="submit" value="send">
-        </form>
+            <input type="text" id="name">
+           </div>
+           <div>
+            <label type="email" id="email">Email:</label>
+            <input>
+           </div>
+           <div>
+               <label for="message">Message:</label>
+            <textarea id="textarea"></textarea>
+           </div>
+         <div>
+            <input type="submit" value="Submit">
+         </div>
+       </form>
+       <form class="form">
+           <h3 class="title">Companies</h3>
+           <br>
+        <div>
+         <label for="name">Company Name:</label>
+         <input type="text" id="name">
+        </div>
+        <div>
+         <label type="email" id="email">Email:</label>
+         <input>
+        </div>
+        <div>
+            <label for="message">Message:</label>
+         <textarea id="textarea"></textarea>
+        </div>
+      <div>
+         <input type="submit" value="Submit">
+      </div>
+    </form>
     </section>
     <footer>
         <ul class="social-networks">
