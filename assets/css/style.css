@@ -138,35 +138,35 @@ background-color: rgba(246, 239, 233, 1);
 
 /* services */
 
-.left {
-    width: 33%;
+.column{
     float: left;
-    line-height: 20px;
-    clear: both;
-    margin-bottom: 50px;
+    width: 33%;
+    margin-top: 15px;
+    margin: 1px 3px 2px 3px;
+    line-height: 200%;
+    text-align: center;
+    
 }
 
-.right {
-    width: 33%;
-    float: right;
-    line-height: 20px;
+.services::after {
+    display: table;
     clear: both;
-    margin-top: -250px;
 }
 
-.center {
-    width: 33%;
-    margin: 0 auto;
-    line-height: 20px;
-    clear: both;
-    margin-bottom: 50px;
-    margin-top: -300px;
+
+.border {
+    border: 2px solid rgba(241, 90, 34, 1)
 }
-/* font awesome style and footer */
+
+/* icons and footer */
 
 .icon {
     font-size: 32px;
     color:rgba(241, 90, 34, 1);
+}
+
+.icon:hover {
+    font-size: 50px;
 }
 
 li{
