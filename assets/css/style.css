@@ -138,6 +138,11 @@ background-color: rgba(246, 239, 233, 1);
 
 /* services */
 
+
+#services {
+    margin-top: 100px;
+}
+
 .column{
     float: left;
     width: 33%;
@@ -189,3 +194,4 @@ footer {
 .social-networks {
     text-align: center; 
 }
+
