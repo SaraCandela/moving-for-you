@@ -28,7 +28,7 @@ h1, h2 {
 #logo {
     float: left;
     font-size: 300%;
-    margin-right: 50%;
+    margin-right: 40%;
     margin-left: 30px;
     margin-top: 20px;
 }
@@ -176,7 +176,7 @@ input{
     width: 400px;
     height: 30px;
     border: 2px solid rgba(241, 90, 34, 1);
-    border-radius: 20px;
+    border-radius: 10px;
 }
 
 textarea {
@@ -184,7 +184,7 @@ textarea {
     height: 70px;
     margin-bottom: 30px;
     border: 2px solid rgba(241, 90, 34, 1);
-    border-radius: 20px;
+    border-radius: 10px;
 }
 
 form {
@@ -210,6 +210,8 @@ input[type="submit"]:hover {
     background-color: #fff;
     color: rgba(241, 90, 34, 1);
 }
+
+
 
 
 
@@ -245,3 +247,21 @@ footer {
     text-align: center; 
 }
 
+/* Media queries */
+
+/* For larger to medium screens size from 1200px wide and down */
+
+@media screen and (max-width: 1200px) {
+    #logo {
+        margin-right: 30%;
+    }
+
+    #cover {
+        padding-top: 40px;
+        padding-left: 20px;
+        bottom: 100px;
+        right:150px;
+
+    }
+    
+}
