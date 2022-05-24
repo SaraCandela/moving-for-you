@@ -34,17 +34,13 @@
         <div id="main-image"></div>
         <div id="cover">
             <h3>Moving care free? We arrange it!</h3>
-            <h3>Taking care of goods since 2000.</h3>
+            <h3>Taking care of goods since 2010.</h3>
         </div>
     </section>
     <section id="about-us">
         <h2 class="title">About us</h2>
-       <div id="left-about">
-            <div class="left-heading">
-                <h2 class="experience">Our Experience 
-                    <i class="fa-solid fa-business-time icon"></i>
-                </h2>
-                <hr id="line">
+       <div>
+            <div class="heading">
             <p>Our company is created from a group of experts with years of experience.
                 Over the past decades, we have helped more than 80,000 customers with
                 transports and relocation projects. 
@@ -54,10 +50,7 @@
             </p>
             </div>
         </div>
-        <div id="image">
-         <img src="../assets/images/copy.jpg" alt="working man">
-        </div>
-    <div>
+    <div class="heading">
         <ul>
             <li>
                 <i class="fa-regular fa-calendar-check icon"></i>
@@ -80,24 +73,26 @@
 </section>
     <section id="services">
         <h2 class="title">Services</h2>
-        <div id="left-side">
-        <div class="left-side-text">
+        <div class="side-text">
+            
             <h3>Moving Services</h3>
             <hr>
             <p>From small apartment moves to full budget friendly service jobs in big houses,
             "moving for you" can accommodate any move with ease. No job is too big or too small for our 
             moving team.</p>
+        
         </div>
-        <div class="left-side-text">
+        <div class="side-text">
+            
             <h3>International</h3>
             <hr>
             <p>We are your international moving, offering international moving services.
                 We manage your international relocation from start to end,
                 because we want you to feel at home wherever you go.</p>
+            
             </div>
-            </div>
-            <div id="right-side">
-                <div class="right-side-text">
+        </div>
+                <div class="side-text">
                 <h3>Companies</h3>
                 <hr>
                 <p>Moving within the building or other location. 
@@ -106,49 +101,28 @@
                     We Are Moving has been active for decades, also as a distribution partner. We help various companies with logistical challenges. 
                     We assist in the delivery of parquet floors, packages, delivery of large items (such as white goods), equipment and more. </p>
                 </div> 
-            </div>
+            
+            
     </section>
     <section id="contact">
         <h2 class="title">Contact us</h2>
-       <form class="form">
-           <h3 class="title">Private</h3>
-           <br>
+       <form method="GET" action="nextpage.html">
            <div>
             <label for="name">Name:</label>
-            <input type="text" id="name">
+            <input type="text" id="name" name="name" required>
            </div>
            <div>
             <label for="email">Email:</label>
-            <input type="email" id="email">
+            <input type="email" id="email" name="email" required>
            </div>
-           <div>
+           <div class="message">
                <label for="textarea">Message:</label>
-            <textarea id="textarea"></textarea>
+            <textarea id="textarea" name="textarea" required></textarea>
            </div>
          <div>
-            <input type="submit" value="Submit">
+            <input type="submit" value="Contact us">
          </div>
        </form>
-       <form class="form">
-           <h3 class="title">Companies</h3>
-           <br>
-        <div>
-         <label for="cname">Company Name:</label>
-         <input type="text" id="cname">
-        </div>
-        <div>
-         <label for="cemail">Email:</label>
-         <input type="email" id="cemail">
-        </div>
-        <div>
-            <label for="message">Message:</label>
-         <textarea id="message"></textarea>
-        </div>
-      <div>
-         <input type="submit" value="Submit">
-      </div>
-    </form>
-
     </section>
     <footer>
         <ul class="social-networks">
