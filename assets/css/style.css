@@ -18,7 +18,7 @@ header {
     background-color:  rgba(246, 239, 233, 1);
 }
 
-h1 {
+h1, h2 {
     font-family: Bebas Neue, sans-serif;
     text-transform: uppercase;
     color: rgba(241, 90, 34, 1);
@@ -141,65 +141,66 @@ color: rgba(241, 90, 34, 1);
     margin-bottom: 50px;
 }
 
-#about-us {
+.title {
     text-align: center;
     margin-top: 10px;
     font-size: 230%;
     background-color: rgba(246, 239, 233, 1);
-}
-
+} 
 
 
 
 /* services */
 
-
 #services {
-    margin-top: 100px;
-    text-align: center;
-    margin-top: 10px;
-    font-size: 230%;
-    background-color: rgba(246, 239, 233, 1);
-
+    height: 400px;
 }
 
-.column{
+#left-side {
+    padding-top: 30px;
+    width:33%;
     float: left;
-    width: 33%;
-    margin-top: 15px;
-    margin: 1px 3px 2px 3px;
-    line-height: 200%;
-    text-align: center;
-    
 }
 
-.services::after {
-    display: table;
+#right-side {
+    padding-top: 30px;
+    width:33%;
+    float: right;
+}
+
+.left-side-text {
+    width: 60%;
+    float:right;
+    line-height:20px;
     clear: both;
+    margin-bottom: 50px;
+    background-color: rgba(241, 90, 34, .7);
+    color: #ffff;
+    border-radius: 5px;
 }
 
-
-.border {
-    border: 2px solid rgba(241, 90, 34, 1)
+.right-side-text {
+    width: 60%;
+    float:left;
+    line-height:20px;
+    clear: both;
+    margin-bottom: 50px;
+    background-color: rgba(241, 90, 34, .7);
+    color:#ffff;
+    border-radius: 5px;
 }
 
-#separation {
-    border-top: 5px solid #ffff;
-    width:100%;
-    margin:5px;
+hr {
+    border-top: 1px solid #fff;
+    width: 100%;
+    margin: 5px 0;
 }
+
 
 /* form */
 
 #contact {
     text-align: center;
-}
-
-#contact-us {
-    text-align: center;
-    margin-top: 10px;
-    font-size: 230%;
-    background-color: rgba(246, 239, 233, 1);
 }
 
 .form {

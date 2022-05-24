@@ -33,12 +33,12 @@
     <section id="cover-picture">
         <div id="main-image"></div>
         <div id="cover">
-            <h2>Moving care free? We arrange it!</h2>
+            <h3>Moving care free? We arrange it!</h3>
             <h3>Taking care of goods since 2000.</h3>
         </div>
     </section>
-    <section>
-        <h1 id="about-us">About us</h1>
+    <section id="about-us">
+        <h2 class="title">About us</h2>
        <div id="left-about">
             <div class="left-heading">
                 <h2 class="experience">Our Experience 
@@ -57,8 +57,6 @@
         <div id="image">
          <img src="../assets/images/copy.jpg" alt="working man">
         </div>
-    </section>
-    <section>
     <div>
         <ul>
             <li>
@@ -80,33 +78,38 @@
     </ul>
 </div>
 </section>
-    <section>
-        <h1 id="services">Services</h1>
-        <div class="column">
-        <h3>Moving Services</h3>
-            <p class="border">From small apartment moves to full budget friendly service jobs in big houses,
+    <section id="services">
+        <h2 class="title">Services</h2>
+        <div id="left-side">
+        <div class="left-side-text">
+            <h3>Moving Services</h3>
+            <hr>
+            <p>From small apartment moves to full budget friendly service jobs in big houses,
             "moving for you" can accommodate any move with ease. No job is too big or too small for our 
             moving team.</p>
-            </div>
-            <div class="column">
+        </div>
+        <div class="left-side-text">
             <h3>International</h3>
-            <p class="border">We are your international moving, offering international moving services.
+            <hr>
+            <p>We are your international moving, offering international moving services.
                 We manage your international relocation from start to end,
                 because we want you to feel at home wherever you go.</p>
             </div>
-            <div class="column">
+            </div>
+            <div id="right-side">
+                <div class="right-side-text">
                 <h3>Companies</h3>
-                <p class="border">Moving within the building or other location. 
+                <hr>
+                <p>Moving within the building or other location. 
                     Relocation managment + expertises and your wishes, We are flexible and reliable. 
-                    Extension of your company
+                    Extentions for your company.
                     We Are Moving has been active for decades, also as a distribution partner. We help various companies with logistical challenges. 
                     We assist in the delivery of parquet floors, packages, delivery of large items (such as white goods), equipment and more. </p>
                 </div> 
+            </div>
     </section>
-    <hr id="separation">
-        <h1 id="contact-us">Contact us</h1>
-    </div>
     <section id="contact">
+        <h2 class="title">Contact us</h2>
        <form class="form">
            <h3 class="title">Private</h3>
            <br>
@@ -115,11 +118,11 @@
             <input type="text" id="name">
            </div>
            <div>
-            <label type="email" id="email">Email:</label>
-            <input>
+            <label for="email">Email:</label>
+            <input type="email" id="email">
            </div>
            <div>
-               <label for="message">Message:</label>
+               <label for="textarea">Message:</label>
             <textarea id="textarea"></textarea>
            </div>
          <div>
@@ -130,16 +133,16 @@
            <h3 class="title">Companies</h3>
            <br>
         <div>
-         <label for="name">Company Name:</label>
-         <input type="text" id="name">
+         <label for="cname">Company Name:</label>
+         <input type="text" id="cname">
         </div>
         <div>
-         <label type="email" id="email">Email:</label>
-         <input>
+         <label for="cemail">Email:</label>
+         <input type="email" id="cemail">
         </div>
         <div>
             <label for="message">Message:</label>
-         <textarea id="textarea"></textarea>
+         <textarea id="message"></textarea>
         </div>
       <div>
          <input type="submit" value="Submit">
