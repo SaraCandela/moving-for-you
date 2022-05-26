@@ -99,7 +99,6 @@ color: rgba(241, 90, 34, 1);
     height: 400px;
     max-width: 800px;
     margin: auto;
-    background: white;
     padding: 40px; 
     text-align: center;
 }
@@ -127,7 +126,6 @@ color: rgba(241, 90, 34, 1);
     height: 700px;
     max-width: 800px;
     margin: auto;
-    background: white;
     padding: 40px; 
     text-align: center;
 }
@@ -162,7 +160,6 @@ hr {
     height: 400px;
     max-width: 800px;
     margin: auto;
-    background: white;
     padding: 40px; 
     text-align: center;
 }
@@ -188,10 +185,6 @@ textarea {
 }
 
 form {
-    height: 400px;
-    max-width: 800px;
-    background: white;
-    padding: 40px;
     text-align: center;
     font-family: montserrat, sans-serif;
     font-size: 120%;
@@ -293,4 +286,35 @@ footer {
         right:50px;
 
     }
+}
+
+/* For mobiles screens from  480px wide and down*/
+
+@media screen and (max-width: 480px) {
+    #menu {
+        clear: left;
+        margin-left: 30px;
+        line-height: 25px;
+    }
+    #about-us {
+        height: 600px;
+    }
+    
+    #services {
+        height: 1050px;
+    }
+  
+    input, textarea {
+        width: fit-content;
+    }
+
+    li {
+        font-size: 12px;
+    }
+    
+    footer {
+        padding-top: 30px;
+        padding-bottom: 5px;
+    }
+
 }
