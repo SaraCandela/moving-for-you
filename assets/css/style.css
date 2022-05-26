@@ -281,6 +281,10 @@ footer {
     #logo {
         margin-right: 10px;
     }
+
+    #about-us {
+        height: 500px;
+    }
  
     #cover {
         padding-top: 40px;
@@ -302,6 +306,11 @@ footer {
     }
     #about-us {
         height: 650px;
+    }
+
+    .heading > p {
+        padding: 50px 0;
+        text-align: center;
     }
     
     #services {
