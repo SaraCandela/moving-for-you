@@ -238,9 +238,9 @@ footer {
 
 /* Media queries */
 
-/* For larger to medium screens size from 1200px wide and down */
+/* For larger to medium screens size from 1281px wide to 950px and down */
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1281px) {
     #logo {
         margin-right: 30%;
     }
@@ -255,7 +255,6 @@ footer {
     
 }
 
-/* For medium screen sizes from 950px wide and down */
 
 @media screen and (max-width: 950px) {
     #logo {
@@ -275,7 +274,7 @@ footer {
     }
 }
 
-/* For small screen sizes from 840px wide and down */
+/* For medium to small screen sizes from 840px wide to 460px and down */
 
 @media screen and (max-width: 840px) {
     #logo {
@@ -295,26 +294,40 @@ footer {
     }
 }
 
-
-/* For small and mobiles screens from  670px wide and down*/
-
-@media screen and (max-width: 670px) {
+@media screen and (max-width: 700px) {
     #menu {
         clear: left;
         margin-left: 30px;
         line-height: 25px;
     }
     #about-us {
-        height: 700px;
+        height: 400px;
     }
+}
 
-    .heading > p {
-        padding: 50px 0;
-        text-align: center;
+@media screen and (max-width: 682px) {
+    #about-us {
+        height: 600px;
+    }
+    #services {
+        height: 900px ;
+    }
+    li {
+        font-size: 12px;
+    }
+    input, textarea {
+        width: fit-content;
+    }
+}
+
+@media screen and (max-width: 460px) {
+  
+    #about-us {
+        height: 700px;
     }
     
     #services {
-        height: 1050px;
+        height: 1100px;
     }
   
     input, textarea {
@@ -322,7 +335,7 @@ footer {
     }
 
     li {
-        font-size: 12px;
+        font-size: 10px;
     }
     
     footer {
@@ -330,4 +343,29 @@ footer {
         padding-bottom: 5px;
     }
 
+}
+
+/* For small screens from  to 320px */
+
+@media screen and (max-width: 363px) {
+    #about-us {
+        height: 1000px;
+    }
+    
+    #services {
+        height: 1300px;
+    }
+
+     #cover {
+        padding-top: 40px;
+        padding-left: 20px;
+        bottom: 100px;
+        right: 1px;
+
+    }
+
+    li {
+        font-size: 8px;
+    }
+    
 }
