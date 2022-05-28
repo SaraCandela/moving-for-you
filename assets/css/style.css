@@ -240,6 +240,8 @@ footer {
 
 /* For larger to medium screens size from 1281px wide to 950px and down */
 
+
+
 @media screen and (max-width: 1281px) {
     #logo {
         margin-right: 30%;
@@ -252,6 +254,7 @@ footer {
         right:150px;
 
     }
+
     
 }
 
@@ -280,6 +283,11 @@ footer {
         margin-right: 10px;
     }
 
+    #menu a:hover {
+        border-bottom: none;
+    }
+    
+
     #about-us {
         height: 500px;
     }
@@ -299,6 +307,9 @@ footer {
         margin-left: 30px;
         line-height: 25px;
     }
+
+   
+    
     #about-us {
         height: 400px;
     }
