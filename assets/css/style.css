@@ -95,7 +95,7 @@ color: rgba(241, 90, 34, 1);
 
 /* About us */
 
-#about-us {
+#about-us, #contact {
     height: 400px;
     max-width: 800px;
     margin: auto;
@@ -142,27 +142,13 @@ color: rgba(241, 90, 34, 1);
     border-radius: 5px;
 }
 
-.side-text > p {
-    font-size: 100%;
-}
-
-
 hr {
-    border-top: 1px solid #fff;
-    width: 100%;
+    border-top: 1px solid #ffff;
     margin: 5px 0;
 }
 
 
 /* form */
-
-#contact {
-    height: 400px;
-    max-width: 800px;
-    margin: auto;
-    padding: 40px; 
-    text-align: center;
-}
 
 label {
     margin-top: 10px;
@@ -286,7 +272,7 @@ footer {
     #menu a:hover {
         border-bottom: none;
     }
-    
+
 
     #about-us {
         height: 500px;

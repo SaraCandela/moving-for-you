@@ -45,7 +45,7 @@ Users of this website will be able to find all about the company and their exper
 
    ![Contact us](/assets/images/contact-us.JPG)
 
-   * When the send button is press, it redirects to a new page that confirm the message has been sent.
+   * When the send button is press, it redirects to a page that confirm the message has been sent and a button sending back to home page.
 
    ![NextPage](/assets/images/nextpage.JPG) 
 
@@ -58,7 +58,15 @@ Users of this website will be able to find all about the company and their exper
 
 ### Bugs
 * When I was trying to start the second section of my project, I realized that one of the pictures used in the About us section was creating a big border that didn't allow me to center the next section of the content. 
-    * This was fixed by changing the border size on CSS. However, I decided to remove completely that image by the end of the project. 
+    * This was fixed by changing the border size on CSS. However, I decided to remove completely that image by the end of the project.
+
+* The website in the computer screen has this underline in the menu bar that when is hover with the mouse shows it, and after pressing it redirects to the section and the underline disappear. With smaller screens, the line didn't show when hover but when press the menu sections, and it didn't disappear until press other section. 
+    * I used the following code to delete completely that line from smaller screen in the media queries.
+       
+        #menu a:hover {
+        border-bottom: none;
+    }
+ 
 
 ### Validator Testing 
 
@@ -76,14 +84,8 @@ Users of this website will be able to find all about the company and their exper
 
 
 ### Unfixed Bugs
- * The website in the computer screen has this underline in the menu bar that when is hover with the mouse shows the line, and after pressing it redirects to the section and the underline disappear. With smaller screens, the line didn't show when hover but when press the menu sections, and it didn't disappear until press other section. 
-    * I used the following code to delete completely that line from smaller screen in the media queries, but I would like to fix that in a future. 
-       
-        #menu a:hover {
-        border-bottom: none;
-    }
 
-* When the form is filled and send, the form's information still shows. 
+No unfixed bugs.
     
 ## Deployment 
 
@@ -99,7 +101,7 @@ The live link can be found here - [Moving for you](https://saracandela.github.io
 
 ### Content 
 
- * The code from sizing the sections used throughout the website was taken from [W3shools](https://w3schools.com)
+ * The code from sizing the sections used for About us section and contact was taken from [W3shools](https://w3schools.com)
 
 ### Media
 
