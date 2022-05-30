@@ -93,6 +93,7 @@ Users of this website will be able to find all about the company and their exper
 ### Unfixed Bugs
 
 * The icons in phone screens grows when pressing them in contrast with computer screen which grows when hover, ideally this effect should not take place in phone devices.
+
     
 ## Deployment 
 
@@ -117,7 +118,6 @@ Code institute Slack community was checked to see common bugs with fellow peers.
 
  * Use [Balsamiq-wireframes](https://balsamiq.com/wireframes) for the idea and planing of my project. 
  * The code from sizing the sections used for About us section and contact was taken from [W3shools](https://w3schools.com)
- * Check on google to conect how to conect the 404 page to my website. 
 
 ### Media
 
