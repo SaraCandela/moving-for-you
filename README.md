@@ -117,6 +117,7 @@ Code institute Slack community was checked to see common bugs with fellow peers.
 
  * Use [Balsamiq-wireframes](https://balsamiq.com/wireframes) for the idea and planing of my project. 
  * The code from sizing the sections used for About us section and contact was taken from [W3shools](https://w3schools.com)
+ * Check on google to conect how to conect the 404 page to my website. 
 
 ### Media
 
