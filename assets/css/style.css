@@ -111,7 +111,7 @@ color: rgba(241, 90, 34, 1);
 } 
 
 .heading {
-  padding: 40px;
+  padding: 30px;
 }
 
 .heading > p {
@@ -270,9 +270,13 @@ footer {
     }
 
     #menu a:hover {
-        border-bottom: none;
+        border-bottom: none !important;
     }
 
+    .icon:hover {
+        font-size: 32px !important;
+    }
+    
 
     #about-us {
         height: 500px;
@@ -293,8 +297,6 @@ footer {
         margin-left: 30px;
         line-height: 25px;
     }
-
-   
     
     #about-us {
         height: 400px;
@@ -319,7 +321,7 @@ footer {
 @media screen and (max-width: 460px) {
   
     #about-us {
-        height: 700px;
+        height: 600px;
     }
     
     #services {
@@ -343,14 +345,14 @@ footer {
 
 /* For small screens from  to 320px */
 
-@media screen and (max-width: 363px) {
+@media screen and (max-width: 364px) {
     #menu {
         margin-left: 15px;
         font-size: 175%;
     }
 
     #about-us {
-        height: 750px;
+        height: 725px;
         margin: 20px auto;
         padding: 0; 
         text-align: left;

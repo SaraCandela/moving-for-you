@@ -64,14 +64,17 @@ Users of this website will be able to find all about the company and their exper
 * I confirmed that the form works: requires entries in every field, will only accept an email in the email field, and the submit button works. 
 
 ### Bugs
-* When I was trying to start the second section of my project, I realized that one of the pictures used in the About us section was creating a big border that didn't allow me to center the next section of the content. 
-    * This was fixed by changing the border size on CSS. However, I decided to remove completely that image by the mid project.
 
-* The website in the computer screen has this underline in the menu bar that when is hover with the mouse shows it, and after pressing it redirects to the section and the underline disappear. With smaller screens, the line didn't show when hover but when press the menu sections, and it didn't disappear until press other section. 
-    * I used the following code to delete completely that line from smaller screen in the media queries.
+* Hover effects on tablet and phone were removed as they were not working as they should in these screens. 
+
+    * I used the following code to delete all hover effects from smaller screen in the media queries.
        
-        #menu a:hover {
-        border-bottom: none;
+       #menu a:hover {
+        border-bottom: none !important;
+    }
+
+    .icon:hover {
+        font-size: 32px !important;
     }
  
 
@@ -92,7 +95,7 @@ Users of this website will be able to find all about the company and their exper
 
 ### Unfixed Bugs
 
-* The icons in phone screens grows when pressing them in contrast with computer screen which grows when hover, ideally this effect should not take place in phone devices.
+* No unfixed Bugs.
 
     
 ## Deployment 
@@ -108,7 +111,7 @@ The live link can be found here - [Moving for you](https://saracandela.github.io
 ## Credits
 
 This is the first porfolio project from Code Institute. The website is inspired by Love Running Project studied and done earlier in this course. 
-Code institute Slack community was checked to see common bugs with fellow peers. 
+Code institute Slack community was checked to see common bugs with other students. 
 
   * Code institute mentor Adegbenga Adeye was consulted especially for image issues and responsive styles. He was a big support through advice and suggestions. 
   * Google is the primary spot consulted for alternative coding and general inspiration. 
